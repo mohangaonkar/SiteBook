@@ -1,89 +1,30 @@
- 2024-10-10 16:17:37,626 : INFO : test_login  : ***** Validating: Test_001_Login *****  
- 2024-10-10 16:17:37,626 : INFO : test_login  : ***** Opening the base URL *****  
- 2024-10-10 16:17:38,142 : INFO : test_login  : ***** Waiting for the popup close button to appear *****  
- 2024-10-10 16:17:43,488 : INFO : test_login  : ***** Popup closed successfully *****  
- 2024-10-10 16:17:43,488 : INFO : test_login  : ***** Initiating login process *****  
- 2024-10-10 16:17:43,488 : INFO : test_login  : ***** Clicking Home login button *****  
- 2024-10-10 16:17:43,589 : INFO : test_login  : ***** Switched to new tab *****  
- 2024-10-10 16:17:46,221 : INFO : test_login  : ***** Page title after switching tab:Site Book *****  
- 2024-10-10 16:17:46,221 : INFO : test_login  : ***** Entering usrname *****  
- 2024-10-10 16:17:46,636 : INFO : test_login  : ***** clicking continue button *****  
- 2024-10-10 16:17:46,711 : INFO : test_login  : ***** Entering password *****  
- 2024-10-10 16:17:46,943 : INFO : test_login  : ***** clicking on login button *****  
- 2024-10-10 16:17:52,012 : INFO : test_login  : ***** Page title after login:Projects | Active *****  
- 2024-10-10 16:17:52,012 : INFO : test_login  : ***** Login successful,navigating to Projects *****  
- 2024-10-10 16:17:52,012 : INFO : test_login  : ***** Waiting for sample bungalow link *****  
- 2024-10-10 16:17:52,031 : INFO : test_login  : ***** clicking on sample bungalow project *****  
- 2024-10-10 16:17:52,206 : INFO : test_login  : ***** Waiting for detailed estimate link *****  
- 2024-10-10 16:17:54,306 : INFO : test_login  : ***** clicking detailed estimate link *****  
- 2024-10-10 16:17:54,462 : INFO : test_login  : ***** Title at detailed estimates: Quote Preview *****  
- 2024-10-10 16:17:54,462 : INFO : test_login  : ***** Test_001_Login completed *****  
- 2024-10-10 16:17:54,467 : INFO : test_quotation_sections  : ***** Validating Test_002_Quotation *****  
- 2024-10-10 16:17:54,467 : INFO : test_quotation_sections  : ***** Waiting for exavation section *****  
- 2024-10-10 16:17:57,057 : INFO : test_quotation_sections  : ***** fetching excavation detail *****  
- 2024-10-10 16:17:57,132 : INFO : test_quotation_sections  : Expected Quantity: 4100.00, Unit: cum, Total Cost: 181.00  
- 2024-10-10 16:17:57,132 : INFO : test_quotation_sections  : ********* Excavation quantity matched ******  
- 2024-10-10 16:17:57,132 : INFO : test_quotation_sections  : ********* Excavation unit matched ******  
- 2024-10-10 16:17:57,248 : ERROR : test_quotation_sections  : ******* Excavation rate mismatched *********  
- 2024-10-10 16:17:57,248 : INFO : test_quotation_sections  : ***** Waiting for the text element to be visible *****  
- 2024-10-10 16:17:57,280 : INFO : test_quotation_sections  : Text from the element: ADVAITH DESIGN STUDIO ARCHITECTS  
- 2024-10-10 16:17:57,280 : INFO : test_quotation_sections  : ***** Test_003_Quotation Completed Successfully *****  
- 2024-10-10 16:29:00,849 : INFO : test_login  : ***** Validating: Test_001_Login *****  
- 2024-10-10 16:29:00,853 : INFO : test_login  : ***** Opening the base URL *****  
- 2024-10-10 16:29:01,373 : INFO : test_login  : ***** Waiting for the popup close button to appear *****  
- 2024-10-10 16:29:06,739 : INFO : test_login  : ***** Popup closed successfully *****  
- 2024-10-10 16:29:06,739 : INFO : test_login  : ***** Initiating login process *****  
- 2024-10-10 16:29:06,739 : INFO : test_login  : ***** Clicking Home login button *****  
- 2024-10-10 16:29:06,838 : INFO : test_login  : ***** Switched to new tab *****  
- 2024-10-10 16:29:09,027 : INFO : test_login  : ***** Page title after switching tab:Site Book *****  
- 2024-10-10 16:29:09,027 : INFO : test_login  : ***** Entering usrname *****  
- 2024-10-10 16:29:09,454 : INFO : test_login  : ***** clicking continue button *****  
- 2024-10-10 16:29:09,553 : INFO : test_login  : ***** Entering password *****  
- 2024-10-10 16:29:09,772 : INFO : test_login  : ***** clicking on login button *****  
- 2024-10-10 16:29:14,849 : INFO : test_login  : ***** Page title after login:Projects | Active *****  
- 2024-10-10 16:29:14,850 : INFO : test_login  : ***** Login successful,navigating to Projects *****  
- 2024-10-10 16:29:14,851 : INFO : test_login  : ***** Waiting for sample bungalow link *****  
- 2024-10-10 16:29:14,877 : INFO : test_login  : ***** clicking on sample bungalow project *****  
- 2024-10-10 16:29:15,050 : INFO : test_login  : ***** Waiting for detailed estimate link *****  
- 2024-10-10 16:29:16,628 : INFO : test_login  : ***** clicking detailed estimate link *****  
- 2024-10-10 16:29:16,773 : INFO : test_login  : ***** Title at detailed estimates: Quote Preview *****  
- 2024-10-10 16:29:16,773 : INFO : test_login  : ***** Test_001_Login completed *****  
- 2024-10-10 16:29:16,775 : INFO : test_login  : ***** Validating: Test_001_Login *****  
- 2024-10-10 16:29:16,775 : INFO : test_login  : ***** Opening the base URL *****  
- 2024-10-10 16:29:18,287 : INFO : test_login  : ***** Waiting for the popup close button to appear *****  
- 2024-10-10 16:29:23,120 : INFO : test_login  : ***** Popup closed successfully *****  
- 2024-10-10 16:29:23,120 : INFO : test_login  : ***** Initiating login process *****  
- 2024-10-10 16:29:23,120 : INFO : test_login  : ***** Clicking Home login button *****  
- 2024-10-10 16:29:23,443 : INFO : test_login  : ***** Switched to new tab *****  
- 2024-10-10 16:29:23,464 : INFO : test_login  : ***** Page title after switching tab:Home | My Site Book *****  
- 2024-10-10 16:29:23,464 : INFO : test_login  : ***** Entering usrname *****  
- 2024-10-10 16:30:03,201 : INFO : test_login  : ***** Validating: Test_001_Login *****  
- 2024-10-10 16:30:03,205 : INFO : test_login  : ***** Opening the base URL *****  
- 2024-10-10 16:30:03,697 : INFO : test_login  : ***** Waiting for the popup close button to appear *****  
- 2024-10-10 16:30:09,019 : INFO : test_login  : ***** Popup closed successfully *****  
- 2024-10-10 16:30:09,019 : INFO : test_login  : ***** Initiating login process *****  
- 2024-10-10 16:30:09,019 : INFO : test_login  : ***** Clicking Home login button *****  
- 2024-10-10 16:30:09,118 : INFO : test_login  : ***** Switched to new tab *****  
- 2024-10-10 16:30:12,097 : INFO : test_login  : ***** Page title after switching tab:Site Book *****  
- 2024-10-10 16:30:12,097 : INFO : test_login  : ***** Entering usrname *****  
- 2024-10-10 16:30:12,491 : INFO : test_login  : ***** clicking continue button *****  
- 2024-10-10 16:30:12,561 : INFO : test_login  : ***** Entering password *****  
- 2024-10-10 16:30:12,827 : INFO : test_login  : ***** clicking on login button *****  
- 2024-10-10 16:30:17,900 : INFO : test_login  : ***** Page title after login:Projects | Active *****  
- 2024-10-10 16:30:17,900 : INFO : test_login  : ***** Login successful,navigating to Projects *****  
- 2024-10-10 16:30:17,900 : INFO : test_login  : ***** Waiting for sample bungalow link *****  
- 2024-10-10 16:30:17,922 : INFO : test_login  : ***** clicking on sample bungalow project *****  
- 2024-10-10 16:30:18,107 : INFO : test_login  : ***** Waiting for detailed estimate link *****  
- 2024-10-10 16:30:20,386 : INFO : test_login  : ***** clicking detailed estimate link *****  
- 2024-10-10 16:30:20,530 : INFO : test_login  : ***** Title at detailed estimates: Quote Preview *****  
- 2024-10-10 16:30:20,530 : INFO : test_login  : ***** Test_001_Login completed *****  
- 2024-10-10 16:30:20,535 : INFO : test_quotation_sections  : ***** Validating Test_002_Quotation *****  
- 2024-10-10 16:30:20,535 : INFO : test_quotation_sections  : ***** Waiting for exavation section *****  
- 2024-10-10 16:30:21,910 : INFO : test_quotation_sections  : ***** fetching excavation detail *****  
- 2024-10-10 16:30:21,996 : INFO : test_quotation_sections  : Expected Quantity: 4100.00, Unit: cum, Total Cost: 181.00  
- 2024-10-10 16:30:21,996 : INFO : test_quotation_sections  : ********* Excavation quantity matched ******  
- 2024-10-10 16:30:21,996 : INFO : test_quotation_sections  : ********* Excavation unit matched ******  
- 2024-10-10 16:30:22,130 : ERROR : test_quotation_sections  : ******* Excavation rate mismatched *********  
- 2024-10-10 16:30:22,130 : INFO : test_quotation_sections  : ***** Waiting for the text element to be visible *****  
- 2024-10-10 16:30:22,162 : INFO : test_quotation_sections  : Text from the element: ADVAITH DESIGN STUDIO ARCHITECTS  
- 2024-10-10 16:30:22,163 : INFO : test_quotation_sections  : ***** Test_003_Quotation Completed Successfully *****  
+ 2024-10-10 17:24:45,922 : INFO : test_login  : ***** Validating: Test_001_Login *****  
+ 2024-10-10 17:24:45,930 : INFO : test_login  : ***** Opening the base URL *****  
+ 2024-10-10 17:24:46,525 : INFO : test_login  : ***** Waiting for the popup close button to appear *****  
+ 2024-10-10 17:24:51,486 : INFO : test_login  : ***** Popup closed successfully *****  
+ 2024-10-10 17:24:51,486 : INFO : test_login  : ***** Initiating login process *****  
+ 2024-10-10 17:24:51,486 : INFO : test_login  : ***** Clicking Home login button *****  
+ 2024-10-10 17:24:51,703 : INFO : test_login  : ***** Switched to new tab *****  
+ 2024-10-10 17:24:54,828 : INFO : test_login  : ***** Page title after switching tab:Site Book *****  
+ 2024-10-10 17:24:54,828 : INFO : test_login  : ***** Entering usrname *****  
+ 2024-10-10 17:24:55,290 : INFO : test_login  : ***** clicking continue button *****  
+ 2024-10-10 17:24:55,462 : INFO : test_login  : ***** Entering password *****  
+ 2024-10-10 17:24:55,826 : INFO : test_login  : ***** clicking on login button *****  
+ 2024-10-10 17:25:00,932 : INFO : test_login  : ***** Page title after login:Projects | Active *****  
+ 2024-10-10 17:25:00,932 : INFO : test_login  : ***** Login successful,navigating to Projects *****  
+ 2024-10-10 17:25:00,932 : INFO : test_login  : ***** Waiting for sample bungalow link *****  
+ 2024-10-10 17:25:00,981 : INFO : test_login  : ***** clicking on sample bungalow project *****  
+ 2024-10-10 17:25:01,218 : INFO : test_login  : ***** Waiting for detailed estimate link *****  
+ 2024-10-10 17:25:02,766 : INFO : test_login  : ***** clicking detailed estimate link *****  
+ 2024-10-10 17:25:02,963 : INFO : test_login  : ***** Title at detailed estimates: Quote Preview *****  
+ 2024-10-10 17:25:02,963 : INFO : test_login  : ***** Test_001_Login completed *****  
+ 2024-10-10 17:25:02,964 : INFO : test_quotation_sections  : ***** Validating Test_002_Quotation *****  
+ 2024-10-10 17:25:02,964 : INFO : test_quotation_sections  : ***** Waiting for exavation section *****  
+ 2024-10-10 17:25:04,002 : INFO : test_quotation_sections  : ***** fetching excavation detail *****  
+ 2024-10-10 17:25:04,118 : INFO : test_quotation_sections  : Expected Quantity: 4100.00, Unit: cum, Total Cost: 181.00  
+ 2024-10-10 17:25:04,118 : INFO : test_quotation_sections  : ********* Excavation quantity matched ******  
+ 2024-10-10 17:25:04,118 : INFO : test_quotation_sections  : ********* Excavation unit matched ******  
+ 2024-10-10 17:25:04,268 : ERROR : test_quotation_sections  : ******* Excavation rate mismatched *********  
+ 2024-10-10 17:25:04,268 : INFO : test_quotation_sections  : ***** Waiting for the text element to be visible *****  
+ 2024-10-10 17:25:04,335 : INFO : test_quotation_sections  : Text from the element: ADVAITH DESIGN STUDIO ARCHITECTS  
+ 2024-10-10 17:25:04,335 : INFO : test_quotation_sections  : ***** Test_003_Quotation Completed Successfully *****  
