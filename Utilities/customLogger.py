@@ -1,11 +1,17 @@
+import inspect
 import logging
 
 
-class LogGen:
+class Log_Class:
+
     @staticmethod
-    def loggen():
-        logging.basicConfig(filename=".\\Logs\\automation.log",
-                            format='%(asctime)s: %(levelname)s : %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-        logger = logging.getLogger()
+    def log_generator():
+        name = inspect.stack()[1][3]
+        logger = logging.getLogger(name)
+        file = logging.FileHandler(".\\Logs\\Automation.log")
+        log_format = logging.Formatter(" %(asctime)s : %(levelname)s : %(funcName)s  : %(message)s  ")
+        file.setFormatter(log_format)
+        logger.addHandler(file)
         logger.setLevel(logging.INFO)
         return logger
+

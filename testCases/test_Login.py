@@ -6,7 +6,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from PageObjects.Login import  LoginPage
 from Utilities.readProperties import readconfig
-from Utilities.customLogger import LogGen
+from Utilities.customLogger import Log_Class
 
 class Test_001_Login:
 
@@ -15,7 +15,7 @@ class Test_001_Login:
     usernumber=readconfig.Usernumber()
     password=readconfig.Password()
 
-    logger = LogGen.loggen()
+    logger = Log_Class.log_generator()
 
     @pytest.mark.dependency(name="test_login")
     def test_login(self,setup):

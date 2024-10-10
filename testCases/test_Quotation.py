@@ -4,12 +4,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from PageObjects.QuotationPage import QuotationPage
 from Utilities.readProperties import readconfig
-from Utilities.customLogger import LogGen
+from Utilities.customLogger import Log_Class
 from testCases.test_Login import Test_001_Login
 
 class Test_002_Quotation:
 
-    logger = LogGen.loggen()
+    logger = Log_Class.log_generator()
 
     @pytest.mark.dependency(depends=["test_login"])
     def test_quotation_sections(self, setup):
