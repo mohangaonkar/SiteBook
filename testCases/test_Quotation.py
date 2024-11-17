@@ -59,7 +59,7 @@ class Test_002_Quotation:
             self.logger.error("******* Excavation rate mismatched *********")
 
         try:
-            element_locator = (By.XPATH, "//label[@class='name']")  # Adjust the XPath as needed
+            element_locator = (By.XPATH, "//label[@class='name']")
             self.logger.info("***** Waiting for the text element to be visible *****")
             WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(element_locator))
 

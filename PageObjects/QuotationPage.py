@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class QuotationPage:
 
     exavation_section = (By.XPATH, "//span[normalize-space()='Excavation']")
-    backfilling_section = (By.XPATH, "//span[contains(text(),'Carrying out backfilling of plinth by machinery us')]")
+    # backfilling_section = (By.XPATH, "//span[contains(text(),'Carrying out backfilling of plinth by machinery us')]")
 
     quantity_locator = (By.XPATH, "//tbody/tr[4]/td[3]")
     unit_locator = (By.XPATH, "//tbody/tr[4]/td[4]")

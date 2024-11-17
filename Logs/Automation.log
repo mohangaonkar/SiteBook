@@ -1,30 +1,40 @@
- 2024-10-10 17:24:45,922 : INFO : test_login  : ***** Validating: Test_001_Login *****  
- 2024-10-10 17:24:45,930 : INFO : test_login  : ***** Opening the base URL *****  
- 2024-10-10 17:24:46,525 : INFO : test_login  : ***** Waiting for the popup close button to appear *****  
- 2024-10-10 17:24:51,486 : INFO : test_login  : ***** Popup closed successfully *****  
- 2024-10-10 17:24:51,486 : INFO : test_login  : ***** Initiating login process *****  
- 2024-10-10 17:24:51,486 : INFO : test_login  : ***** Clicking Home login button *****  
- 2024-10-10 17:24:51,703 : INFO : test_login  : ***** Switched to new tab *****  
- 2024-10-10 17:24:54,828 : INFO : test_login  : ***** Page title after switching tab:Site Book *****  
- 2024-10-10 17:24:54,828 : INFO : test_login  : ***** Entering usrname *****  
- 2024-10-10 17:24:55,290 : INFO : test_login  : ***** clicking continue button *****  
- 2024-10-10 17:24:55,462 : INFO : test_login  : ***** Entering password *****  
- 2024-10-10 17:24:55,826 : INFO : test_login  : ***** clicking on login button *****  
- 2024-10-10 17:25:00,932 : INFO : test_login  : ***** Page title after login:Projects | Active *****  
- 2024-10-10 17:25:00,932 : INFO : test_login  : ***** Login successful,navigating to Projects *****  
- 2024-10-10 17:25:00,932 : INFO : test_login  : ***** Waiting for sample bungalow link *****  
- 2024-10-10 17:25:00,981 : INFO : test_login  : ***** clicking on sample bungalow project *****  
- 2024-10-10 17:25:01,218 : INFO : test_login  : ***** Waiting for detailed estimate link *****  
- 2024-10-10 17:25:02,766 : INFO : test_login  : ***** clicking detailed estimate link *****  
- 2024-10-10 17:25:02,963 : INFO : test_login  : ***** Title at detailed estimates: Quote Preview *****  
- 2024-10-10 17:25:02,963 : INFO : test_login  : ***** Test_001_Login completed *****  
- 2024-10-10 17:25:02,964 : INFO : test_quotation_sections  : ***** Validating Test_002_Quotation *****  
- 2024-10-10 17:25:02,964 : INFO : test_quotation_sections  : ***** Waiting for exavation section *****  
- 2024-10-10 17:25:04,002 : INFO : test_quotation_sections  : ***** fetching excavation detail *****  
- 2024-10-10 17:25:04,118 : INFO : test_quotation_sections  : Expected Quantity: 4100.00, Unit: cum, Total Cost: 181.00  
- 2024-10-10 17:25:04,118 : INFO : test_quotation_sections  : ********* Excavation quantity matched ******  
- 2024-10-10 17:25:04,118 : INFO : test_quotation_sections  : ********* Excavation unit matched ******  
- 2024-10-10 17:25:04,268 : ERROR : test_quotation_sections  : ******* Excavation rate mismatched *********  
- 2024-10-10 17:25:04,268 : INFO : test_quotation_sections  : ***** Waiting for the text element to be visible *****  
- 2024-10-10 17:25:04,335 : INFO : test_quotation_sections  : Text from the element: ADVAITH DESIGN STUDIO ARCHITECTS  
- 2024-10-10 17:25:04,335 : INFO : test_quotation_sections  : ***** Test_003_Quotation Completed Successfully *****  
+ 2024-11-17 23:39:10,744 : INFO : test_login  : ***** Validating: Test_001_Login *****  
+ 2024-11-17 23:39:10,752 : INFO : test_login  : ***** Opening the base URL *****  
+ 2024-11-17 23:39:11,689 : INFO : test_login  : ***** Waiting for the popup close button to appear *****  
+ 2024-11-17 23:39:16,710 : INFO : test_login  : ***** Popup closed successfully *****  
+ 2024-11-17 23:39:16,710 : INFO : test_login  : ***** Initiating login process *****  
+ 2024-11-17 23:39:16,710 : INFO : test_login  : ***** Clicking Home login button *****  
+ 2024-11-17 23:39:17,502 : INFO : test_login  : ***** Switched to new tab *****  
+ 2024-11-17 23:39:20,069 : INFO : test_login  : ***** Page title after switching tab:Site Book *****  
+ 2024-11-17 23:39:20,069 : INFO : test_login  : ***** Entering usrname *****  
+ 2024-11-17 23:39:20,414 : INFO : test_login  : ***** clicking continue button *****  
+ 2024-11-17 23:39:20,516 : INFO : test_login  : ***** Entering password *****  
+ 2024-11-17 23:39:20,852 : INFO : test_login  : ***** clicking on login button *****  
+ 2024-11-17 23:39:25,920 : INFO : test_login  : ***** Page title after login:Projects | Active *****  
+ 2024-11-17 23:39:25,920 : INFO : test_login  : ***** Login successful,navigating to Projects *****  
+ 2024-11-17 23:39:25,920 : INFO : test_login  : ***** Waiting for sample bungalow link *****  
+ 2024-11-17 23:39:25,953 : INFO : test_login  : ***** clicking on sample bungalow project *****  
+ 2024-11-17 23:39:26,183 : INFO : test_login  : ***** Waiting for detailed estimate link *****  
+ 2024-11-17 23:39:27,333 : INFO : test_login  : ***** clicking detailed estimate link *****  
+ 2024-11-17 23:39:27,514 : INFO : test_login  : ***** Title at detailed estimates: Quote Preview *****  
+ 2024-11-17 23:39:27,514 : INFO : test_login  : ***** Test_001_Login completed *****  
+ 2024-11-17 23:49:37,524 : INFO : test_login  : ***** Validating: Test_001_Login *****  
+ 2024-11-17 23:49:37,524 : INFO : test_login  : ***** Opening the base URL *****  
+ 2024-11-17 23:49:38,051 : INFO : test_login  : ***** Waiting for the popup close button to appear *****  
+ 2024-11-17 23:49:43,072 : INFO : test_login  : ***** Popup closed successfully *****  
+ 2024-11-17 23:49:43,072 : INFO : test_login  : ***** Initiating login process *****  
+ 2024-11-17 23:49:43,072 : INFO : test_login  : ***** Clicking Home login button *****  
+ 2024-11-17 23:49:43,225 : INFO : test_login  : ***** Switched to new tab *****  
+ 2024-11-17 23:49:46,787 : INFO : test_login  : ***** Page title after switching tab:Site Book *****  
+ 2024-11-17 23:49:46,789 : INFO : test_login  : ***** Entering usrname *****  
+ 2024-11-17 23:49:47,109 : INFO : test_login  : ***** clicking continue button *****  
+ 2024-11-17 23:49:47,188 : INFO : test_login  : ***** Entering password *****  
+ 2024-11-17 23:49:47,427 : INFO : test_login  : ***** clicking on login button *****  
+ 2024-11-17 23:49:52,493 : INFO : test_login  : ***** Page title after login:Projects | Active *****  
+ 2024-11-17 23:49:52,493 : INFO : test_login  : ***** Login successful,navigating to Projects *****  
+ 2024-11-17 23:49:52,493 : INFO : test_login  : ***** Waiting for sample bungalow link *****  
+ 2024-11-17 23:49:52,523 : INFO : test_login  : ***** clicking on sample bungalow project *****  
+ 2024-11-17 23:49:52,761 : INFO : test_login  : ***** Waiting for detailed estimate link *****  
+ 2024-11-17 23:49:54,141 : INFO : test_login  : ***** clicking detailed estimate link *****  
+ 2024-11-17 23:49:54,264 : INFO : test_login  : ***** Title at detailed estimates: Quote Preview *****  
+ 2024-11-17 23:49:54,264 : INFO : test_login  : ***** Test_001_Login completed *****  
